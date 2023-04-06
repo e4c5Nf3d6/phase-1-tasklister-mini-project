@@ -12,12 +12,24 @@
     <form id="create-task-form" action="" method="POST">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <select id="urgency">
+        <option value="urgent" class="red">Urgent</option>
+        <option value="less-urgent" class="orange">Less Urgent</option>
+        <option value="not-urgent" class="green">Not Urgent</option>
+      </select>
       <input type="submit" value="Create New Task">
     </form>
 
     <div id="list">
       <h2>My Todos:</h2>
-      <ul id="tasks">
+      <h3 class="red">Urgent:</h3>
+      <ul id="urgent_tasks" class="red">
+      </ul>
+      <h3 class="orange">Less Urgent:</h3>
+      <ul id="less_urgent_tasks" class="orange">
+      </ul>
+      <h3 class="green">Not Urgent:</h3>
+      <ul id="not_urgent_tasks" class="green">
       </ul>
     </div>
 

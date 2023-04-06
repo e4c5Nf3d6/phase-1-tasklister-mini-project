@@ -11,7 +11,8 @@ body {
 }
 
 button {
-  font-size: 7px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 #main-content {
@@ -34,4 +35,36 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+.editform {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.editbuttons {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+button {
+  background-color: white;
+  padding-top: 2px;
+}
+
+li {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
